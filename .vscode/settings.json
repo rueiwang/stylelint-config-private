@@ -1,0 +1,44 @@
+{
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "prettier.vueIndentScriptAndStyle": false,
+    "editor.wordWrapColumn": 100,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.eslint": true
+    },
+    "javascript.format.enable": false,
+    "stylelint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+      "extensions": [ ".js" ]
+    },
+    "eslint.validate": [ "javascript" ],
+    "cSpell.words": [
+      "stylelint",
+    ],
+    "cSpell.ignorePaths": [
+      "**/package.json",
+      "**/package-lock.json",
+      "**/node_modules/**",
+      "**/vscode-extension/**",
+      "**/.git/**",
+      ".vscode"
+    ],
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "path-intellisense.mappings": {
+      "@": "${workspaceRoot}/src",
+      "~": "${workspaceRoot}/src"
+    },
+    "codemetrics.basics.ComplexityLevelNormal": 10,
+    "codemetrics.basics.ComplexityLevelHigh": 20,
+    "codemetrics.basics.ComplexityLevelExtreme": 30
+  }
+  
